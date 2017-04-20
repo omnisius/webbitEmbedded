@@ -17,7 +17,8 @@ class SimpleServerHandler implements HttpHandler {
                 .end();
     }
 
-    private String memoryUsage() {
+    private String memoryUsage()
+    {
         Runtime runtime = Runtime.getRuntime();
 
         NumberFormat format = NumberFormat.getInstance();
